@@ -1,10 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Avatar } from 'sea-design';
 
 function App() {
   return (
     <div className="App">
+
+              <Avatar
+          src={'testUrl2'}
+          type={'logo'}
+          onAdd={() => {
+          }}
+          onRemove={() => {}}
+        />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
